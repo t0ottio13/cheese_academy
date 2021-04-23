@@ -300,6 +300,11 @@ header{
 	margin-bottom: 48px;
 }
 
+/* スマホ画面用 */
+.news_topics2 {
+	display: none;
+}
+
 /* ===== ACCESS ===== */
 
 .ACCESS {

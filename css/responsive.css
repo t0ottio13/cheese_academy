@@ -43,6 +43,58 @@
         width: 90%;
     }
 
+    .news_topics {
+        display: none;
+    }
+
+    .slideshow {
+        display: flex;
+        animation:loop-slide 20s infinite linear 1s both;
+    }
+
+    @keyframes loop-slide {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    .topic {
+        width: 400px;
+        height: 100%;
+        margin: 40px 10px;
+        object-fit: cover;
+        box-sizing: border-box;
+        padding: 5% 5%;
+    }
+
+    .news_topics2 {
+        display: flex;
+        align-items: center ;
+        height: 100%;
+        overflow: hidden;
+        width: 80%;
+        margin: 10px 0;
+        padding: 20px 0;
+    }
+
+    .slide_paused:hover .slideshow{
+        animation-play-state: paused;
+    }
+
+    .topic_hover {
+        transition: all 0.2s;
+    }
+
+    .topic_hover:hover {
+        transform: translateY(-20px);
+        box-shadow: 0 3px 10px 0 #333;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
 
     .school_info {
         margin: 0 10%;

@@ -32,8 +32,8 @@ body p {
 }
 
 
-/* ===== header ===== */
 
+/* ===== header ===== */
 header{
 	width: 100%;
 }
@@ -91,8 +91,11 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: gray;
 	font: 21px;
+}
+
+.nav_right a{
+	color: gray;
 }
 
 

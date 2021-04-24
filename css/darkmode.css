@@ -1,0 +1,52 @@
+@media (prefers-color-scheme: dark) {
+    body {
+    background-color:dimgray;
+    color: ivory;
+    }
+}
+
+/* ====== header ======*/
+
+.header_top {
+    color: ivory;
+}
+
+.nav_right a{
+    color:ivory;
+}
+
+.header_bottom {
+    border-bottom: solid 1px darkgrey;
+}
+
+
+
+
+/* ====== COURSE ======*/
+
+.course_text h3{
+    color: ivory;
+}
+
+.section_text_box p{
+    color: dimgray;
+    opacity: 1.0;
+}
+
+.section {
+    background-color: lightgray;
+}
+/* ====== ACCESS ======*/
+
+.access_text {
+    color:dimgray;
+    opacity: 1.0;
+}
+
+.school_info {
+    color:dimgray;
+}
+/* ====== ======*/
+/* ====== ======*/
+/* ====== ======*/
+/* ====== ======*/

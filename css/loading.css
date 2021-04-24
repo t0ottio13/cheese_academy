@@ -1,5 +1,4 @@
 /* ==== ローディングのためのCSS ==== */
-
 #splash {
     position: fixed;
     z-index: 999;
@@ -15,7 +14,7 @@
 
 #splash_text {
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 50%;
     z-index: 999;
     width: 90%;

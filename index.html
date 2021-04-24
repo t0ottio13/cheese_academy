@@ -20,14 +20,20 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/darkmode.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <script type="text/javascript" src="cheeseacademy.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/loading.css">
     <!-- あらかじめcssを読み込んでいるので設定しなくてOK-->
 </head>
 
 <body>
     <!-- ここから記述しよう -->
-    <header>
+    <!-- loading -->
+    <div id = "splash">
+        <div id="splash_text"></div>
+    </div>
 
+
+    <!-- main_content -->
+    <header>
         <div class="header_top">
             <h1>セカイを変えるチーズを作ろう</h1>
             <h2>チーズ職人養成学校「チーズアカデミーFUKUOKA」</h2>
@@ -374,6 +380,14 @@
         <a href="#" id="page_top">TOP</a>
         <p>copyrights 2016-2018 Cheese Academy Fukuoka All RIghts Reserved.</p>
     </footer>
+
+
+    <!-- js の読み込み -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <script src= "./js/loading.js"></script>
 </body>
 
 </html>

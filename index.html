@@ -21,29 +21,23 @@
     <link rel="stylesheet" type="text/css" href="css/darkmode.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" type="text/css" href="css/loading.css">
-    <!-- あらかじめcssを読み込んでいるので設定しなくてOK-->
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <!-- あらかじめcssを読み込んでいるので設定しなくてOK-->
 </head>
 
 <body>
     <!-- ここから記述しよう -->
-    <!-- loading -->
-
-
-
 
     <!-- main_content -->
     <header>
         <div id = "splash">
         <div id="splash_text"></div>
         </div>
-        <div class="header_top">
-            <h1 class="h_index">セカイを変えるチーズを作ろう</h1>
-            <h2 class="h_index">チーズ職人養成学校「チーズアカデミーFUKUOKA」</h2>
-        </div>
-        <div class="header_bottom">
+            <div class="header_top">
             <div class="header_nav">
                 <div class="nav_left">
-                    <img src="img/header_logo.png">
+                    <p><span class="fab fa-cuttlefish"></span>CHEESE ACADEMY</p>
                 </div>
                 <div class="nav_right">
                     <div><a href="#about">ABOUT</a></div>
@@ -53,6 +47,15 @@
                     <div><a href="#contact">CONTACT</a></div>
                 </div>
             </div>
+        </div>
+        <div class="header_middle">
+            <img src="./img/header_logo.png" alt="" class="animate__animated animate__bounce">
+            <div class="header_middle_image"></div>
+        </div>
+
+        <div class="header_bottom" >
+            <h1 class="h_index" id="header_animation_h1">セカイを変えるチーズを作ろう</h1>
+            <h2 class="h_index" id="header_animation_h2">チーズ職人養成学校「チーズアカデミーFUKUOKA」</h2>
         </div>
     </header>
 
@@ -389,6 +392,7 @@
     crossorigin="anonymous"></script>
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
     <script src= "./js/loading.js"></script>
+    <script src="./js/header_animation.js"></script>
 </body>
 
 </html>

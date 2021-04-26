@@ -1,13 +1,17 @@
 @media (prefers-color-scheme: dark) {
+
+
+
     body {
-    background-color:dimgray;
+    background-image: url(../img/black_mode_background.jpg);
+    background-attachment: fixed;
     color: ivory;
     }
 
 
     /* ====== header ======*/
 
-    .header_top {
+    .header_bottom {
         color: ivory;
     }
 
@@ -15,8 +19,8 @@
         color:ivory;
     }
 
-    .header_bottom {
-        border-bottom: solid 1px darkgrey;
+    .header_top {
+        background-color: dimgray;
     }
 
 

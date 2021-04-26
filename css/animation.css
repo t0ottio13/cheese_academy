@@ -20,10 +20,6 @@
     100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
 }
 
-.animate__animated.animate__bounce {
---animate-duration: 2s;
---animate-repeat: 5;
-}
 
 
 

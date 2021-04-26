@@ -49,8 +49,14 @@
             </div>
         </div>
         <div class="header_middle">
-            <img src="./img/header_logo.png" alt="" class="animate__animated animate__bounce">
-            <div class="header_middle_image"></div>
+            <img src="./img/header_logo.png" class="
+                animate__animated
+                animate__fadeInRight
+                animate__delay-2s
+                ">
+            <div class="header_middle_image animate__fadeInRight" >
+
+            </div>
         </div>
 
         <div class="header_bottom" >
@@ -59,19 +65,19 @@
         </div>
     </header>
 
-    <div class="ABOUT" id="about">
-        <div class="about_text">
+    <div class="ABOUT " id="about">
+        <div class="about_text" id="about_text">
             <h3 class="h_index">ABOUT</h3>
-            <p class ="about_p_margin1">チーズアカデミーについて</p>
-            <p class="about_p_margin2">チーズアカデミーは，チーズ職人養成学校です</p>
+            <p class ="about_p_margin1" >チーズアカデミーについて</p>
+            <p class="about_p_margin2" >チーズアカデミーは，チーズ職人養成学校です</p>
             <p>チーズの素晴らしさを，自給自足を通じて，できるだけ多くの人に知っていただきたい．</p>
             <p>そして，食卓にはいつもチーズがあった，あの頃の当たり前をこの手で取り戻したい．</p>
-            <p class="about_p_margin2">そんな思いから，チーズ職人養成学校「チーズアカデミーFUKUOKA」は歩みを始めています．</p>
+            <p class="about_p_margin2" >そんな思いから，チーズ職人養成学校「チーズアカデミーFUKUOKA」は歩みを始めています．</p>
             <p>卒業後，チーズ自給自足のバックアップはもちろんのこと，</p>
             <p>チーズ職人への就職・転職もサポートします．</p>
         </div>
         <div class="slide">
-            <div class="about_photo"></div>
+            <div class="about_photo"id="about_photo"></div>
         </div>
     </div>
 
@@ -393,6 +399,38 @@
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
     <script src= "./js/loading.js"></script>
     <script src="./js/header_animation.js"></script>
-</body>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+    <script defer src="js/gravitymenu_min.js"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+            garavityMenu({
+                canvas: "canvas",
+                size: 58,
+                gap: 10,
+                menu_list: [
+                    ["top", "./index.html", "https://labs.manohara.info/gravitymenu/svg/1.svg"],
+                    ["download", "#download", "https://labs.manohara.info/gravitymenu/svg/4.svg"],
+                    ["social", "", "https://labs.manohara.info/gravitymenu/svg/6.svg"],
+                ],
+                menu_imageSize: 1000,
+                social: true,
+                social_size: 35,
+                social_list: [
+                    ["facebook", "https://www.facebook.com/sharer.php?u=https://labs.manohara.info/gravitymenu", "https://labs.manohara.info/gravitymenu/svg/circle_facebook.svg"],
+                    ["facebook", "https://www.facebook.com/sharer.php?u=https://labs.manohara.info/gravitymenu", "https://labs.manohara.info/gravitymenu/svg/circle_facebook.svg"],
+                    ["facebook", "https://www.facebook.com/sharer.php?u=https://labs.manohara.info/gravitymenu", "https://labs.manohara.info/gravitymenu/svg/circle_facebook.svg"],
+                    ["facebook", "https://www.facebook.com/sharer.php?u=https://labs.manohara.info/gravitymenu", "https://labs.manohara.info/gravitymenu/svg/circle_facebook.svg"],
+                    ["facebook", "https://www.facebook.com/sharer.php?u=https://labs.manohara.info/gravitymenu", "https://labs.manohara.info/gravitymenu/svg/circle_facebook.svg"],
+                    ["twitter", "https://twitter.com/share?url=https://labs.manohara.info/gravitymenu&text=Gravity Menu.js", "https://labs.manohara.info/gravitymenu/svg/circle_twitter.svg"],
+                    ["twitter", "https://twitter.com/share?url=https://labs.manohara.info/gravitymenu&text=Gravity Menu.js", "https://labs.manohara.info/gravitymenu/svg/circle_twitter.svg"],
+                    ["twitter", "https://twitter.com/share?url=https://labs.manohara.info/gravitymenu&text=Gravity Menu.js", "https://labs.manohara.info/gravitymenu/svg/circle_twitter.svg"],
+                    ["twitter", "https://twitter.com/share?url=https://labs.manohara.info/gravitymenu&text=Gravity Menu.js", "https://labs.manohara.info/gravitymenu/svg/circle_twitter.svg"],
+                    ["twitter", "https://twitter.com/share?url=https://labs.manohara.info/gravitymenu&text=Gravity Menu.js", "https://labs.manohara.info/gravitymenu/svg/circle_twitter.svg"],
+                ],
+                social_imageSize: 100,
+            });
+        });
+    </script>
+    </body>
 
 </html>

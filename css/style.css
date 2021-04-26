@@ -7,11 +7,12 @@ body{
 	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 	line-height: 1.75;
 	font-size: 16px;
-	width: 960px;
+	width: 100vw;
 	margin: auto;
 	background-image: url(../img/light_background.jpg);
-	background-repeat:repeat-y ;
+	background-repeat:;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 /*　パディングをサイズ内側にする処理　*/

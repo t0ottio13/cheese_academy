@@ -83,13 +83,19 @@ header{
 	object-fit: cover;
 }
 
-.fa-cheese {
-	color: #fff61a;
+.cheese_phone {
 	position: absolute;
-	top: 15%;
-	left: 40%;
-	width: 40%;
-	height: 40%;
+	top: 30%;
+	left: 57%;
+	width: 280px;
+	height: 280px;
+}
+
+.header_middle p{
+	position: absolute;
+	font-size: 30px;
+	top: 29%;
+	left: 66%;
 }
 
 
@@ -285,10 +291,10 @@ header{
 	width: 20%;
 	margin-bottom: 10px;
 	padding-left: 40px;
-	--animate-duration: 2s;
+	--animate-duration: 2.5s;
 }
 
-.
+
 
 /* about_slideshow */
 

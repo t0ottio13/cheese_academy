@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="css/loading.css">
     <link rel="stylesheet" type="text/css" href="css/animation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/cheese_blizzard.css">
         <!-- あらかじめcssを読み込んでいるので設定しなくてOK-->
 </head>
 
@@ -49,16 +50,18 @@
             </div>
         </div>
         <div class="header_middle">
-            <img src="./img/header_logo.png" class="
-                animate__animated
-                animate__fadeInRight
-                animate__delay-2s
-                ">
-            <div class="header_middle_image animate__fadeInRight" >
-
+            <div class="fluid">
             </div>
+            <img class="header_middle_logo" src="./img/header_logo.png" alt=""
+                class="
+                    animate__animated
+                    animate__zoomIn
+                    animate__delay-2s
+            ">
+            <img class="header_middle_jobs" src="./img/cheese_jobs.png" alt="">
+            <div class="cheesephone"><span class="fas fa-cheese"></span></div>
         </div>
-
+        <div class="header_middle_img"></div>
         <div class="header_bottom" >
             <h1 class="h_index" id="header_animation_h1">セカイを変えるチーズを作ろう</h1>
             <h2 class="h_index" id="header_animation_h2">チーズ職人養成学校「チーズアカデミーFUKUOKA」</h2>
@@ -66,7 +69,7 @@
     </header>
 
     <div class="ABOUT " id="about">
-        <div class="about_text" id="about_text">
+        <div class="about_text">
             <h3 class="h_index">ABOUT</h3>
             <p class ="about_p_margin1" >チーズアカデミーについて</p>
             <p class="about_p_margin2" >チーズアカデミーは，チーズ職人養成学校です</p>
@@ -288,14 +291,20 @@
     </div>
 
     <div class="CONTACT" id="contact">
-        <div class="contact_text">
-            <h3 class="h_index">CONTACT</h3>
-            <p class="contact_text_p2">説明会お申し込み・お問い合わせ</p>
-            <p>ぜひ1度，足を運んでみませんか．説明会は随時開催中．</p>
-            <p>その他，お問い合わせもお気軽にどうぞ．お待ちしております．</p>
-            <p class="caution">※チーズアカデミーは実際には存在しません．</p>
-            <p >間違っても問い合わせしないようお願いいたします．</p>
+        <div class="cheeze_blizzard">
+            <div id="particles-js"></div>
+                <div id="wrapper">
+                    <div class="contact_text">
+                    <h3 class="h_index">CONTACT</h3>
+                    <p class="contact_text_p2">説明会お申し込み・お問い合わせ</p>
+                    <p>ぜひ1度，足を運んでみませんか．説明会は随時開催中．</p>
+                    <p>その他，お問い合わせもお気軽にどうぞ．お待ちしております．</p>
+                    <p class="caution">※チーズアカデミーは実際には存在しません．</p>
+                    <p >間違っても問い合わせしないようお願いいたします．</p>
+                </div>
+            </div>
         </div>
+
         <div class="contact_form">
             <table class="contact_form_table">
                 <tr>
@@ -399,38 +408,8 @@
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
     <script src= "./js/loading.js"></script>
     <script src="./js/header_animation.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
-    <script defer src="js/gravitymenu_min.js"></script>
-    <script>
-        window.addEventListener("DOMContentLoaded", function () {
-            garavityMenu({
-                canvas: "canvas",
-                size: 58,
-                gap: 10,
-                menu_list: [
-                    ["top", "./index.html", "https://labs.manohara.info/gravitymenu/svg/1.svg"],
-                    ["download", "#download", "https://labs.manohara.info/gravitymenu/svg/4.svg"],
-                    ["social", "", "https://labs.manohara.info/gravitymenu/svg/6.svg"],
-                ],
-                menu_imageSize: 1000,
-                social: true,
-                social_size: 35,
-                social_list: [
-                    ["facebook", "https://www.facebook.com/sharer.php?u=https://labs.manohara.info/gravitymenu", "https://labs.manohara.info/gravitymenu/svg/circle_facebook.svg"],
-                    ["facebook", "https://www.facebook.com/sharer.php?u=https://labs.manohara.info/gravitymenu", "https://labs.manohara.info/gravitymenu/svg/circle_facebook.svg"],
-                    ["facebook", "https://www.facebook.com/sharer.php?u=https://labs.manohara.info/gravitymenu", "https://labs.manohara.info/gravitymenu/svg/circle_facebook.svg"],
-                    ["facebook", "https://www.facebook.com/sharer.php?u=https://labs.manohara.info/gravitymenu", "https://labs.manohara.info/gravitymenu/svg/circle_facebook.svg"],
-                    ["facebook", "https://www.facebook.com/sharer.php?u=https://labs.manohara.info/gravitymenu", "https://labs.manohara.info/gravitymenu/svg/circle_facebook.svg"],
-                    ["twitter", "https://twitter.com/share?url=https://labs.manohara.info/gravitymenu&text=Gravity Menu.js", "https://labs.manohara.info/gravitymenu/svg/circle_twitter.svg"],
-                    ["twitter", "https://twitter.com/share?url=https://labs.manohara.info/gravitymenu&text=Gravity Menu.js", "https://labs.manohara.info/gravitymenu/svg/circle_twitter.svg"],
-                    ["twitter", "https://twitter.com/share?url=https://labs.manohara.info/gravitymenu&text=Gravity Menu.js", "https://labs.manohara.info/gravitymenu/svg/circle_twitter.svg"],
-                    ["twitter", "https://twitter.com/share?url=https://labs.manohara.info/gravitymenu&text=Gravity Menu.js", "https://labs.manohara.info/gravitymenu/svg/circle_twitter.svg"],
-                    ["twitter", "https://twitter.com/share?url=https://labs.manohara.info/gravitymenu&text=Gravity Menu.js", "https://labs.manohara.info/gravitymenu/svg/circle_twitter.svg"],
-                ],
-                social_imageSize: 100,
-            });
-        });
-    </script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./js/cheese_blizzard.js"></script>
     </body>
 
 </html>

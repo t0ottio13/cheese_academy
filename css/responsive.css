@@ -124,6 +124,7 @@
 
     .section {
         height: 300px;
+        margin: 0;
     }
 
     /* ===== NEWS ===== */
@@ -146,8 +147,9 @@
     }
 
     .topic {
-        background-color: lightgray;
-        opacity: 0.95;
+        background-color:#fff;
+        opacity: 0.99;
+        border-radius: 5%;
     }
 
     .news_btn {
@@ -197,7 +199,10 @@
     }
 
 
-
+    /* ===== LINK ===== */
+    .LINK {
+        display: none;
+    }
 
 
 

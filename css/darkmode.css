@@ -11,16 +11,26 @@
 
     /* ====== header ======*/
 
+    header {
+        background-color: dimgray;
+        padding-top: 50px;
+    }
+
     .header_bottom {
         color: ivory;
+        background-color: dimgray;
     }
 
     .nav_right a{
         color:ivory;
     }
 
+    .nav_left p{
+        color: white;
+    }
+
     .header_top {
-        background-color: dimgray;
+        background-color: darkgray;
     }
 
 
@@ -51,8 +61,22 @@
         color:dimgray;
     }
 
-    /* ====== ======*/
-    /* ====== ======*/
-    /* ====== ======*/
+    /* ====== NEWS ======*/
+
+    /* ====== CONTACT ======*/
+
+    .contact_form {
+        background-color: dimgray;
+    }
+
+    .contact_form_2{
+        background-color: dimgray;
+    }
+
+    /* ====== footer ======*/
+
+    footer {
+        background-color: darkgray;
+    }
 
 }

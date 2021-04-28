@@ -363,7 +363,7 @@ header{
 }
 
 .section {
-	height: 300px;
+	height: 500px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -420,7 +420,7 @@ header{
 .news_text h3{
 	color: #fff61a;
 	font-size: 24px;
-	margin: 24px 0;
+	margin-bottom: 24px;
 }
 
 .news_text p{
@@ -447,10 +447,6 @@ header{
 	z-index: 3;
 }
 
-.topic:hover{
-	animation: headShake;
-	animation-duration: 0.8s;
-}
 
 .topic_margin {
 	margin: 0 32px;
@@ -532,6 +528,7 @@ header{
 .ACCESS {
 	background-color: #efefef;
 	margin-top: 400px;
+	padding-top: 100px;
 }
 
 
@@ -557,12 +554,12 @@ header{
 
 .access_text {
 	text-align: center;
-	padding: 64px 0;
+	padding-bottom: 64px;
 }
 
 .access_text h3{
 	font-size: 24px;
-	margin-bottom: 24px;
+	margin-bottom: 30px;
 }
 
 .school_info {
@@ -591,6 +588,7 @@ header{
 
 .CONTACT {
 	padding-bottom: 200px;
+	padding-top: 100px;
 }
 
 .contact_text {
@@ -599,17 +597,21 @@ header{
 	align-items: center;
 	flex-direction: column;
 	padding-bottom: 80px;
+	position: relative;
+	margin: 0 auto;
 }
 
 .contact_text h3{
-	padding-top: 64px;
 	padding-bottom: 24px;
+	font-size: 24px;
 }
 
 
 .contact_text p{
 	z-index: 10;
+	font-size: 20px;
 }
+
 
 .contact_text_p2{
 	padding-bottom: 64px;
@@ -688,14 +690,6 @@ header{
 	width: 328px;
 }
 
-.contact_text{
-	position: relative;
-	margin: 300px auto;
-}
-
-.contact_text p{
-	font-size: 20px;
-}
 
 .contact_form {
 	z-index: 3;

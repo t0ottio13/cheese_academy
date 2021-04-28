@@ -274,7 +274,7 @@ header{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 }
 
 
@@ -589,6 +589,7 @@ header{
 .CONTACT {
 	padding-bottom: 200px;
 	padding-top: 100px;
+	margin-top: 200px;
 }
 
 .contact_text {
@@ -598,7 +599,7 @@ header{
 	flex-direction: column;
 	padding-bottom: 80px;
 	position: relative;
-	margin: 0 auto;
+	margin: 0 auto 200px auto;
 }
 
 .contact_text h3{

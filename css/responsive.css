@@ -4,32 +4,216 @@
     }
     body{
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
+    /* ===== header ===== */
 
     header {
         text-align: center;
+        background-color:ivory;
     }
 
     .header_bottom h1{
         font-size: 34px;
     }
+
     .header_bottom h2{
         font-size: 18px;
     }
 
+    .header_middle {
+        height: 200px;
+        margin-top: 40px;
+        padding-top: 50px;
+    }
 
-    .nav_left {
+
+    .header_middle p{
         display: none;
     }
 
-    .nav_right {
+    .header_middle h5{
+        display: none;
+    }
+
+    .cheese_phone {
+        display: none;
+    }
+
+    .header_middle_jobs {
+        display: none;
+    }
+
+    .header_nav {
+        display: block;
+        font-size: 12px;
+        float: left;
+    }
+
+    .nav_left p{
+        margin-right: 0;
+        float: left;
+    }
+
+    .nav_left {
         width: 100%;
+        display: block;
+        padding-top: 10px;
+    }
+
+    .nav_right {
+        display: none;
+    }
+
+
+    .header_bottom {
+        display: block;
+        height: 30px;
+        background-color:unset;
+        margin-bottom: 0;
+        padding-top: 0;
+        color: dimgray;
+        animation-name:none;
+        padding-top: 30px;
+    }
+
+    /* ===== ABOUT ===== */
+
+    .ABOUT {
+        padding-top: 20px;
+        margin-bottom: 0;
     }
 
     .about_text {
+        font-size: 16px;
+        padding-bottom: 40px;
+        margin: 0 10%;
+        align-items: unset;
+    }
+
+    .about_text p{
+        font-size: 16px;
+    }
+
+    .about_photo {
+        height: 100px;
+    }
+
+
+/* ===== COURSE ===== */
+
+    .COURSE {
+        margin-top: 0;
+        padding: 0;
+
+    }
+
+    .course_text {
+        padding: 0 10%;
+        margin-bottom: 64px;
+        align-items: unset;
+    }
+
+    .course_text h3{
+        margin-bottom: 24px;
+    }
+
+    .course_text p{
+        font-size: 16px;
+    }
+
+    .section {
+        height: 300px;
+    }
+
+    /* ===== NEWS ===== */
+
+    .NEWS {
+        margin-top: 64px;
+        display: block;
+        justify-content: unset;
+        align-items: unset;
+        flex-direction: unset;
+        padding-top: 0;
+    }
+
+    .news_text {
+        padding: 0 10%;
+    }
+
+    .news_topics2 {
+        margin: 0 auto;
+    }
+
+    .topic {
+        background-color: lightgray;
+        opacity: 0.95;
+    }
+
+    .news_btn {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+
+
+    /* ===== ACCESS ===== */
+
+    .ACCESS {
+        margin-top: 0px;
+        padding-top: 64px;
+    }
+
+    .access_text {
+        text-align: unset;
         margin: 0 10%;
     }
+
+    /* ===== CONTACT ===== */
+
+    .CONTACT_mini {
+        padding-top: 64px;
+    }
+
+    .contact_text p{
+        font-size: 16px;
+    }
+
+    .contact_text {
+        margin-bottom: 0;
+        align-items: unset;
+        margin: 0 10%;
+    }
+
+    .contact_btn {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .contact_form_2 {
+        padding: 10% 10%;
+        background-color: ivory;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .section_text_box h4{
         display: none;

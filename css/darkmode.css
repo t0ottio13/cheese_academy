@@ -63,6 +63,10 @@
 
     /* ====== NEWS ======*/
 
+    .topic p{
+        opacity: 1;
+    }
+
     /* ====== CONTACT ======*/
 
     .contact_form {

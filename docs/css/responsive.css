@@ -45,6 +45,10 @@
         display: none;
     }
 
+    .header_middle img{
+        width: 80%;
+    }
+
     .header_nav {
         display: block;
         font-size: 12px;
@@ -68,6 +72,7 @@
 
 
     .header_bottom {
+
         display: block;
         height: 30px;
         background-color:unset;
@@ -76,6 +81,14 @@
         color: dimgray;
         animation-name:none;
         padding-top: 30px;
+    }
+
+    .header_bottom h1{
+        font-size: 24px;
+    }
+
+    .header_bottom h2 {
+        font-size: 16px;
     }
 
     /* ===== ABOUT ===== */

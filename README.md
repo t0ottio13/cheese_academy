@@ -1,13 +1,15 @@
-# Cheese_Academy
+# チーズアカデミー
+チーズ職人養成学校の模擬サイト。
 
-Cheese Academy is a mock site for learning with HTML, CSS, and JS.
+# 工夫した点、こだわった点
+　レスポンシブデザイン、ライト・ダークモードなど個別環境に対応するように大きさ、色、デザインを調整した。
+　サイトに動きをつけるため、jQueryやその他JSライブラリを使ってアニメーションを加えた。
+　デザインに関しては、iPhoneのWebサイトを思い出して見直し感動した為、パララックスデザインを取り入れることにしました。結果、サイトに奥行きを出すことができました。余白が多いのはその為です。
 
-# Points to consider and focus on
+# 苦戦した点、共有したいハマりポイント
+　苦戦した点　=>
+JSライブラリをサイトに組み込む時にうまくいかず苦労しました。
 
-The first two are responsive design and dark mode design.
-For responsive design, we have made it so that when viewed on smaller devices such as smartphones, a special design is displayed.The buttons and other input screens have been adjusted in horizontal length to make them easier to press.
-
-The dark mode design switches the color to a black base according to the device settings.
-
-
-# Things I wanted to do, but couldn't
+　ハマりポイント　=>
+JSライブラリの種類、手軽さに驚きました。
+まだまだ、使用できてないものも多いので今後、学習を進め開拓していきます。

@@ -793,5 +793,10 @@ footer  p{
 	padding: 32px 0;
 	font-size: 18px;
 	background-color: #707070;
+	opacity: 1;
+}
+
+footer {
+	background-color: whitesmoke;
 }
 

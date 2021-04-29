@@ -770,6 +770,23 @@ footer{
     transform-origin: left top;
 }
 
+/* ===== LINK ===== */
+
+.LINK {
+	text-align: center;
+	height: 200px;
+	width: 100%;
+	padding-bottom: 200px;
+	margin-bottom: 200px;
+}
+
+.link_text h3{
+	font-size: 24px;
+	padding-bottom: 100px;
+}
+
+.link_text
+
 footer  p{
 	width:100%;
 	color:white;
@@ -778,6 +795,3 @@ footer  p{
 	background-color: #707070;
 }
 
-.LINK {
-	display: none;
-}

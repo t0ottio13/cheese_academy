@@ -785,7 +785,16 @@ footer{
 	padding-bottom: 100px;
 }
 
-.link_text
+.share {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.link_box {
+	height: 50px;
+}
+
+
 
 footer  p{
 	width:100%;

@@ -123,7 +123,7 @@
     }
 
     .course_text {
-        padding: 0 10%;
+        padding:  10%;
         margin-bottom: 64px;
         align-items: unset;
     }
@@ -137,9 +137,23 @@
     }
 
     .section {
-        height: 300px;
+        height: 150px;
         margin: 0;
     }
+
+    .section_text_box {
+        padding: 10% 10%;
+    }
+
+    .section_text_box h4{
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .section_text_box p{
+        display: none;
+    }
+
 
     /* ===== NEWS ===== */
 
@@ -234,13 +248,6 @@
 
 
 
-    .section_text_box h4{
-        display: none;
-    }
-
-    .section_text_box p{
-        font-size: 14px;
-    }
 
     .news_btn {
         width: 90%;

@@ -200,6 +200,17 @@
         margin: 0 10%;
     }
 
+    .school_info td{
+        padding-right: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .school_info {
+        margin: 0 10%;
+    }
+
+
     /* ===== CONTACT ===== */
 
     .CONTACT_mini {
@@ -231,23 +242,6 @@
     .LINK {
         display: none;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .news_btn {
         width: 90%;
@@ -305,9 +299,6 @@
     }
 
 
-    .school_info {
-        margin: 0 10%;
-    }
 
     .CONTACT {
         display: none;
